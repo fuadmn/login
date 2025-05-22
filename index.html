@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>login</title>
+   <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+  <div class="container">
+   <div class="box">
+      <h1>Login</h1>
+      <form id="form">
+
+      <div class="labal_box">
+         <label for="username">User</label>
+          <input type="text" id="username" name="username" placeholder="Enter Your User Name">
+      </div>
+
+      <div class="labal_box">
+         <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter Your  Password">
+      </div>
+      
+      <div class="row_div">
+          <div class="row_div"">
+              <input type="checkbox" class="checkbox">
+              <h3>Forget Password</h3>
+          </div>
+           <h2>Forget Password</h2>
+      </div>
+
+      <button type="submit">Save</button>
+      </form>
+      <p id="error" style="color: red"></p>
+      <p id="success" style="color: blue"></p>
+   </div>
+  </div>
+   <script src="login.js"></script>
+</body>
+</html>
